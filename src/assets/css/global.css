@@ -1,0 +1,30 @@
+
+/* 初始化某些元素样式 */
+html,body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    min-width: 800px;
+}
+
+h1,h2,h4,p,ul,li{
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    list-style: none;
+}
+
+.quill-editor{
+    margin-top: 5px;
+    
+}
+.ql-toolbar{
+    border: 1px solid #000 !important;
+}
+.ql-container{
+    border: 1px solid #000 !important;
+    border-top: none !important;
+    height: 420px !important;
+}
